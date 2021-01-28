@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}Alf - Gabaritos{% endblock %}
+{% block links %}
+<script src="{{url_for('static', filename='gabaritos.js')}}"></script>
+{% endblock %}
+{% block content %}
+<div class="center-container">
+    <form action="#">
+        <p>Aluno:</p>
+        <p><input type="text" placeholder="Nome do aluno"></p>
+    </form>
+</div>
+<div class="center-container flex-vertical">
+    <div class="flex-vertical" id="add_resposta">
+
+    </div>
+    <div class="center-container">
+        <p>
+            <button onclick="addResposta()">Adicionar resposta</button>
+            <button onclick="removeResposta()">Remover resposta</button>
+        </p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</div>
+{% endblock %}
