@@ -9,5 +9,8 @@ app.register_blueprint(api, url_prefix='/api')
 @app.route('/')
 def home():
     return render_template('home.html')
+@app.route('/alunos')
+def alunos():
+    return render_template('alunos.html')
 if __name__ == '__main__':
     app.run(debug=True)
