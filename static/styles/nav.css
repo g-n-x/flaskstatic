@@ -1,0 +1,33 @@
+.navbar {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 60%;
+}
+
+a {
+    font-size: larger;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
