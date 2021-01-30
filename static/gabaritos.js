@@ -20,6 +20,5 @@ function removeResposta() {
     if(count >= 1) {
         document.getElementById(`div${count}`).remove();
         count -= 1;
-        console.log(count)
     }
 }
